@@ -2,13 +2,12 @@ from typing import Protocol, TypeVar
 
 
 class Multipliable(Protocol):
-
-    def __mul__(self, x): pass
-
+    def __mul__(self, x):
+        pass
 
 
 class NonMultipliable:
-    
+
     pass
 
 
